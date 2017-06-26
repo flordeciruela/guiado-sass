@@ -1,3 +1,15 @@
+$background-principal : rgb(193, 244, 80);
+$color-principal : rgb(60, 59, 53);
+$size-principal : 14px;
+$width-container : 100%;
+$width-margin : 10%;
+
+#container {
+	width: $width-container;
+	margin: $width-margin;
+	background-color: $background-principal;
+}
+
 #container p {
 	font-family: Arial;
 	font-size: 13px;
@@ -6,6 +18,7 @@
 #container h1 {
 	font-family: Tahoma;
 	font-size: 45px;
+	color: $color-principal;
 }
 
 #container h2 {

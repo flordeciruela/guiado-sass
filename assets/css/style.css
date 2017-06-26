@@ -1,10 +1,16 @@
+#container {
+  width: 100%;
+  margin: 10%;
+  background-color: #c1f450; }
+
 #container p {
   font-family: Arial;
   font-size: 13px; }
 
 #container h1 {
   font-family: Tahoma;
-  font-size: 45px; }
+  font-size: 45px;
+  color: #3c3b35; }
 
 #container h2 {
   font-family: Helvetica;
